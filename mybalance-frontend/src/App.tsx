@@ -5,6 +5,8 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Login from './pages/Login';
 import AuthCallback from './pages/AuthCallback';
+import Profile from './pages/Profile';
+import AuthSuccess from './pages/AuthSuccess';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/auth/callback" element={<AuthCallback />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/auth/success" element={<AuthSuccess />} />
       </Routes>
     </BrowserRouter>
       <div className="container mt-4">

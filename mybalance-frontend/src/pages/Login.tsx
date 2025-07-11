@@ -5,7 +5,7 @@ const Login = () => {
 
   return (
     <div className="container mt-5 text-center">
-      <h2>Увійти в HealthyCafe</h2>
+      <h2>Увійти в My Balance</h2>
       <button className="btn btn-outline-primary" onClick={handleLogin}>
         Увійти через Google
       </button>

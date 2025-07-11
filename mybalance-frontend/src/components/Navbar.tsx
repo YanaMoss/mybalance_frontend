@@ -13,6 +13,7 @@ const Navbar: React.FC = () => {
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
               <Link className="nav-link" to="/">Головна</Link>
+              <Link className="nav-link" to="/profile">Профіль</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/login">Увійти</Link>
